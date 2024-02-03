@@ -1,0 +1,5 @@
+for sis in Jo Meg Beth Amy
+	do
+		echo $sis
+		grep -woi $sis LittleWomen.txt | wc -l
+done
